@@ -1,0 +1,22 @@
+{
+    "name" : "kewan/whackoverflowbundle",
+    "description" : "Display related stack overflow posts on dev error page",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Kewan",
+        "email" : "demo@company.com"
+    }],
+    "keywords" : [
+        "symfony", "stack overflow", "error", "dev"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+    },
+    "require-dev" : {
+    },
+    "autoload" : {
+         "psr-4": { "Kewan\\WhackOverflowBundle\\": "" }
+    }
+}
